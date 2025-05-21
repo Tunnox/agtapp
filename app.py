@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify, redirect, url_for, flash
-import psycopg2
+import psycopg2-binary
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'  # Replace with your secret key
